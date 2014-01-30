@@ -41,8 +41,9 @@ int main(){
 		cin>>N>>M;
 		ans=fact[N+M-2];
 		ans*=modInverse(fact[N-1])%mod;
+		ans=(ans+mod)%mod;
 		ans*=modInverse(fact[M-1])%mod;
-
+		ans=(ans+mod)%mod;
 		cout<<ans<<"\n";
 	}
 }
