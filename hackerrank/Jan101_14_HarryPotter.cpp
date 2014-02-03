@@ -1,6 +1,8 @@
 //To find the integral points between two points on a line segment
 /*
-Consider the points (x1, y1) and (x2, y2). Let a = |x1 - x2|, b = |y1 - y2|. Then the number of points with integer coordinates on the segment is gcd(a, b) + 1, including points (x1, y1) and (x2, y2).
+Consider the points (x1, y1) and (x2, y2). Let a = |x1 - x2|, b = |y1 - y2|. 
+Then the number of points with integer coordinates on the segment is gcd(a, b) + 1, 
+including points (x1, y1) and (x2, y2).
 */
 
 #include<iostream>
